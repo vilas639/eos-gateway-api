@@ -33,7 +33,7 @@ spring:
     name: eos-gateway-api
   config:
    import:
-      - "classpath:application_uat.yaml"
+      - "classpath:application_uat.yml"
   profiles:
       active: uat
   cloud:
